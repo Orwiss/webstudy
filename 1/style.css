@@ -9,7 +9,12 @@ body {
 }
 
 #headButton {
+  list-style: none;
   align: right;
+}
+
+#headButton li{
+  text-decoration: none;
 }
 
 #titleText {
