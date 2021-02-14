@@ -2,6 +2,11 @@ body {
   margin: 0 auto;
 }
 
+#header {
+  width: 100%;
+  height: 200px;
+}
+
 #titleText {
   color: #ac4d5f;
 }
