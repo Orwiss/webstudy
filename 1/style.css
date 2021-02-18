@@ -74,9 +74,8 @@ h1, h3, h4, p {
 }
 
 .special-button {
-    border: 2.5px transparent solid;
     background-color: cadetblue;
-    border: 2px cadetblue solid;
+    border: 2.5px cadetblue solid;
     color: darkblue;
 }
 
