@@ -3,11 +3,12 @@ body {
     width: 100vw;
 }
 
-h1, h3, h4, p {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
 ul {
+    margin: 0;
     padding-left: 0;
     list-style: none;
 }
@@ -15,13 +16,8 @@ ul {
 #header {
     width: 100%;
     height: 860px;
-    margin: 0 auto;
-}
-
-#header-img {
-    width: 100%;
-    height: 100%;
     background-color: #5333ED;
+    margin: 0 auto;
 }
 
 .nav {
@@ -174,29 +170,30 @@ ul {
     color: #424242;
 }
 
+.features-title p {
+    margin-top: 8px;
+}
+
 .features-list {
-    top: 16%;
+    top: 13%;
     right: 11%;
     position: absolute;
     display: inline-block;
-    border: 1px red solid;
 }
 
 .features {
     display: inline-block;
-    list-style: none;
-    margin: 0;
 }
 
-.features li {
-    padding: 8px 48px;
+.features-content {
+    display: flex;
+    align-items: center;
+    padding: 12px 52px;
     font-size: 13pt;
-    border: 1px green dashed;
 }
 
-.features p {
+.features-content p {
     display: inline-block;
-    border: 1px blue dashed;
 }
 
 .icon {
@@ -204,6 +201,7 @@ ul {
     height: 28px;
     display: inline-block;
     margin-right: 15px;
+    margin-bottom: 0;
     border: 1px black solid;
 }
 
@@ -211,7 +209,6 @@ ul {
     width: 100%;
     height: 740px;
     padding-top: 240px;
-    background-color: #fcfcfc;
 }
 
 .works-for-you-title {
@@ -227,7 +224,7 @@ ul {
     margin-top: 2px;
 }
 
-.three-columns {
+.works-for-you-contents {
     float: left;
     width: 28.3333%;
     padding: 0 2.5%;
@@ -241,7 +238,7 @@ ul {
     margin-bottom: 40px;
 }
 
-.three-columns h4, .three-columns p {
+.works-for-you-contents h4, .works-for-you-contents p {
     margin-bottom: 10px;
     font-size: 13pt;
     letter-spacing: -0.5pt;
@@ -252,36 +249,103 @@ ul {
 .is-site {
     width: 100%;
     height: 540px;
-    background-color: lavender;
+    background-color: #e1eaf8;
 }
 
 .is-site-contents {
-    width: 540px;
+    width: 640px;
+}
+
+.is-site-contents-block {
+    position: relative;
+    padding-left: 30px;
+    border: 1px black solid;
 }
 
 .is-site h1 {
     padding-top: 70px;
     font-size: 30pt;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .is-site-title {
-    display: inline;
+    border: 1px blue solid;
 }
 
 .arrow_icon {
     width: 11px;
     height: 11px;
-    border: 1px black solid;
+    position: absolute;
+    left: -3%;
     display: inline-block;
+    border: 1px black solid;
 }
 
 .is-site-title h4 {
-    display: inline;
+    display: inline-block;
+    font-size: 14pt;
     margin: 20px 0;
     border: 1px green solid;
 }
 
 .is-site-text {
     margin: 20px 20px 20px 0;
+    border: 1px red solid;
+}
+
+.is-site-title:hover .is-site-text {
+    height: 0;
+    background-color: red;
+}
+
+.with-us {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    background-color: #fcfcfc;
+}
+
+.title {
+    text-align: center;
+    font-size: 30pt;
+    padding: 60px 0 40px 0;
+}
+
+.brands {
+    margin: 80px 0;
+    text-align: center;
+}
+
+.brands div {
+    border: 1px black solid;
+}
+
+
+.logo1, .logo2, .logo3 {
+    height: 80px;
+    display: inline-block;
+}
+
+.logo1 {
+    width: 180px;
+}
+
+.logo2 {
+    width: 200px;
+}
+
+.logo3 {
+    width: 240px;
+}
+
+.rating {
+    width: 100%;
+    height: 700px;
+    background-color: #e1eaf8;
+}
+
+.plans {
+    width: 100%;
+    height: 960px;
+    background-color: #150773;
 }
