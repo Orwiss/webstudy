@@ -152,11 +152,14 @@ ul {
     width: 100%;
     height: 216px;
     position: absolute;
-    top: 78%;
     background-color: white;
     color: dimgray;
     border-radius: 4px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.float1 {
+    top: 78%;
 }
 
 .features-title {
@@ -302,7 +305,6 @@ ul {
     width: 100%;
     height: 500px;
     margin: 0;
-    background-color: #fcfcfc;
 }
 
 .title {
@@ -348,4 +350,14 @@ ul {
     width: 100%;
     height: 960px;
     background-color: #150773;
+}
+
+.float2 {
+    top: 88%;
+}
+
+.stories {
+    width: 100%;
+    height: 650px;
+    padding-top: 150px;
 }
