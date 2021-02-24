@@ -24,7 +24,7 @@ nav {
     padding-bottom: 20px;
 }
 
-nav h1 {
+.logo {
     float: left;
     color: white;
     font-size: 20pt;
@@ -80,8 +80,8 @@ nav a {
 header hr {
     width: 100%;
     height: 0.1px;
-    background-color: white;
-    opacity: 30%;
+    background-color: #4833b6;
+    opacity: 10%;
 }
 
 .contents {
@@ -587,13 +587,69 @@ footer {
     font-weight: bold;
 }
 
-.featured-ebook h1 {
+.footer-title {
     font-size: 16pt;
-    margin-bottom: 4px;
+    margin-bottom: 20px;
 }
 
-.featured-ebook p {
+.footer-contents {
     font-size: 13pt;
     font-weight: lighter;
+    margin: 20px 0;
+}
+
+.featured-ebook .footer-title {
+    margin: 0 0 4px 0;
+}
+
+.featured-ebook .footer-contents {
+
     line-height: 20pt;
 }
+
+.award-winning {
+    margin-top: 36px;
+}
+
+.award {
+    width: 64px;
+    height: 72px;
+    display: inline-block;
+    margin-top: 18px;
+    border: 1px white solid;
+}
+
+.kinsta {
+    position: absolute;
+    top: 60%;
+}
+
+.kinsta .logo {
+    float: none;
+}
+
+.kinsta p {
+    margin-top: 18px;
+    color: #4833b6;
+    font-weight: lighter;
+}
+
+.social-buttons {
+    width: 26px;
+    height: 26px;
+    border-radius: 26px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 18px;
+    margin-right: 3px;
+}
+
+.features {
+    width: 150px;
+    position:absolute;
+    top: 10%;
+    left: 40%;
+    color: white;
+}
+
+.features
