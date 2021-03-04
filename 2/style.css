@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#header-motion {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    position: relative;
+}
+
+#header-motion h1 {
+    color: white;
+    font-size: 32pt;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+}
