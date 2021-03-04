@@ -4,17 +4,17 @@ let r = 0;
 let scale = 50;
 
 function setup() {
-    var canvas = createCanvas(document.body.clientWidth, 720);
+    var canvas = createCanvas(windowWidth, 720);
     canvas.parent('header-motion');
-    noFill();
-    stroke(255);
-    strokeWeight(4);
 }
 
 function draw() {
     background(0);
+    noFill();
+    strokeWeight(4);
+
     stroke(255);
-    circle(mouseX, mouseY, 50);
+    circle(width/2, height/2, 40);
     stroke(255, 0, 0);
     circle(mouseX + (cos(radians(deg)) * r), mouseY + (sin(radians(deg)) * r), scale);
     stroke(0, 0, 255);
@@ -29,4 +29,9 @@ function draw() {
     else if (r == 0) {
     pm = 1;
     }
+}
+
+function windowResized() {
+    canvas = createCanvas(windowWidth, 720);
+    canvas.parent('header-motion');
 }
