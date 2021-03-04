@@ -15,6 +15,10 @@ function draw() {
 
     stroke(255);
     circle(width/2, height/2, 40);
+<<<<<<< HEAD
+=======
+    circle(mouseX, mouseY, 50);
+>>>>>>> 95b96e8b021aff39abe375f334b9a2cbe4485f4f
     stroke(255, 0, 0);
     circle(mouseX + (cos(radians(deg)) * r), mouseY + (sin(radians(deg)) * r), scale);
     stroke(0, 0, 255);
