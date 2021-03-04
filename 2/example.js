@@ -14,6 +14,7 @@ function setup() {
 function draw() {
     background(0);
     stroke(255);
+    circle(width/2, height/2, 40);
     circle(mouseX, mouseY, 50);
     stroke(255, 0, 0);
     circle(mouseX + (cos(radians(deg)) * r), mouseY + (sin(radians(deg)) * r), scale);
