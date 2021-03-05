@@ -1,0 +1,13 @@
+.sprite-insta-icon {
+    display: inline-block;
+	background: url('../img/bg1.png') no-repeat -379px -18px;
+	width: 32px;
+	height: 32px;
+}
+
+.sprite-text-logo {
+    display: inline-block;
+	background: url('../img/bg1.png') no-repeat -480px -18px;
+	width: 105px;
+	height: 32px;
+}

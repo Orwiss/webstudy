@@ -1,0 +1,38 @@
+body {
+    background-color: #fafafa;
+}
+
+#header {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#header .inner {
+    width: 975px;
+    height: 77px;
+    margin: 0 auto;
+}
+
+#header .inner .logo div {
+    vertical-align: middle;
+}
+
+#header .inner .logo .sprite-insta-icon {
+    position: relative;
+    margin-right: 30px;
+}
+
+#header .inner .logo .sprite-insta-icon:after {
+    content: '';
+    width: 1px;
+    height: 28px;
+    background: #000;
+    position: absolute;
+    right: -15px;
+    top: 0;
+}
