@@ -70,7 +70,7 @@ class Particle {
   }
   
   draw() {
-  	fill(this.c);
+    fill(this.c);
     circle(this.x + this.nx, this.y + this.ny, this.d);
   }
 }
